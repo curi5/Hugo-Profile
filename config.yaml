@@ -20,18 +20,20 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+#Menus:
+ # main:
+   # - identifier: blog
+   #   name: Blog
+    #  title: Blog posts
+    #  url: /blogs
+     # weight: 1
+   # - identifier: gallery
+   #   name: Gallery
+   #   title: Blog posts
+    #  url: /gallery
+    #  weight: 2
+
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -101,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     menus:
       disableAbout: false
       disableExperience: false
@@ -250,16 +252,14 @@ params:
     items:
       - title: The Duke of Edinburgh's Award Bronze, Silver, Gold
         content: Volunteering, coding, hard working etc
-      - title: wow I have no other acheivmenets in life
-        content: big Oof, quick note, I can make this a button for a webiste 
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Project 1
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: My Website
+        content: A website built in Hugo
         image: /images/projects/profile.png
         featured:
           name: Demo
@@ -269,12 +269,12 @@ params:
           - "Bootstrap"
           - "Javascript"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+         # - icon: fa fa-envelope
+          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+         # - icon: fab fa-github
+          #  url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+           # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
   #Contact
   contact:
